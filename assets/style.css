@@ -1,39 +1,37 @@
 body {
     margin: 0px;
     color: black;
-    background-image: url(https://images.unsplash.com/photo-1456154875099-97a3a56074d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
+    background-image: url(https://wallpaperaccess.com/full/1567666.png);
     color: red;
+    background-size:cover;
 }
 header {
     background-color: #ff5964;
     text-align: center;
     color: black;
     margin-top: 0px;
-    
 }
 nav {
-    animation: headerFade .4s forwards 0s ease-in-out;
+    animation: headerFade .6s forwards 0s ease-in-out;
     background-color: #ff5964;
     padding: 0%;
-    
 }
 h1 {
     font-size: 25px;
-
 }
-
 li{
     padding-bottom: 0px;
     display: inline-block;
     margin: 0px 120px;
 }
 ul {
-    list-style: none;
-    
+    list-style: none; 
 }
 a {
     text-decoration: none;
-    color: red;
+    color: black;
+    font-size: 24px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 footer {
     display: flex;
@@ -48,33 +46,52 @@ footer {
       padding: 80px ;
       flex-direction: column;
       color: red;
-  }
-  .description {   
-      margin-left: 100px;
-      font-size: 24px;
-      color: red;
-      
+      align-items: center;
   }
   p {
       margin-left: 100px;
       color: red;
   }
-.pictureOfMe{
-    display:flex;
-    
-    width: 135px;
-    height: 325px;
+  section h2 {
+      display: flex;
+      padding: 20px;
+  }
+  p a {
+    color:red;
 }
-.placeholderPhotos{
+p a img {
+    align-items: center;
     display: flex;
 }
-
+  .description {   
+    margin-left: 100px;
+    font-size: 24px;
+    color: red; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.pictureOfMe{
+    display:flex;
+    max-width: 9%;
+    margin: -150px 0px 0px 1500px;
+}
+.placeholderPhotos{
+    max-width: 35%;
+    padding: 5px;
+    margin:125px;
+    border: 1px solid red;
+}
+.pictureOfMe:hover{
+    background-color: red;
+}
 .list-items{
     list-style: none;
     margin-left: 8px;
-
 }
 .contact {
+    max-width: 200%;
+}
+.projects {
+
 }
 
   @keyframes headerFade {
@@ -98,3 +115,8 @@ footer {
         opacity: 100%;
     }
 }
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }

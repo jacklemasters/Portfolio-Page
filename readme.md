@@ -1,1 +1,1 @@
-Creating the framework for a portfolio page for a homework assignment in my bootcamp. While it doesn't currently hold much of value, it can be built on and used when I actually have projects to portay and more web development skills to improve it.
+Creating the framework for a portfolio page for a homework assignment in my bootcamp. While it doesn't currently hold much of value, it can be built on and used when I actually have projects to portay and more web development skills to improve it. (Pictures under projects used as placeholders until projects can be added.)
