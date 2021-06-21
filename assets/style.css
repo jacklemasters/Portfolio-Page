@@ -91,10 +91,20 @@ p a img {
 }
 .contact {
     max-width: 200%;
-    display:flex;
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
 }
 .projects {
 
+}
+
+.card {
+    display:block;
+    justify-content: space-between;
+    margin: 35px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
   @keyframes headerFade {
@@ -123,3 +133,5 @@ p a img {
       flex-direction: column;
     }
   }
+
+
